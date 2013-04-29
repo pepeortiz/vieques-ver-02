@@ -356,7 +356,7 @@ BCL3.markup = function (html, data) {
     	<img src="images/protagonistas/Carlos-Ventura.jpg" width="65" height="65" border="0" alt="" title="" />
     </div>
 	<div class="elpasado-right-rail-profile-text" style="">
-	    <strong>Carlos "Prieto" Ventura</strong>,<br />pescador viequense (video)
+	    <strong><a href='#' class='galPop02'>Carlos "Prieto" Ventura</strong>,<br />pescador viequense</a>
     </div>
 </div>
 
@@ -1841,6 +1841,15 @@ BCL16.markup = function (html, data) {
 
 <p class="page-content">"Vieques está muy necesitado de que haya un verdadero compromiso de los gobiernos", acotó el historiador José "Che" Paralitici, quien hace una década, cuando en la Isla Nena se luchaba contra la presencia de la Marina de Guerra de Estados Unidos, fue portavoz de la Coordinadora Todo Puerto Rico con Vieques.</p>
 
+<div class="elpasado-right-rail-profile" style="">
+	<div class="elpasado-right-rail-profile-box" style="">
+    	<img src="images/protagonistas/Jose-Paralitici.jpg" width="65" height="65" border="0" alt="" title="" />
+    </div>
+	<div class="elpasado-right-rail-profile-text" style="">
+	    <strong><a href='#' class='galPop08'>José "Che" Paralitici</strong>,<br />fue portavoz</a>
+    </div>
+</div>
+
 <hr>
 Foto: nota1_paralitici_vieques
 José "Che" Paralitici fue portavoz de la Coordinadora Todo Puerto Rico con Vieques.
@@ -2079,7 +2088,7 @@ BCL19.markup = function (html, data) {
                 	<a href="#homepage" class="to-top"></a>
                 </div>
                 <div class="twelve columns copyright">
-                	<a href="">El Nuevo Día - GFR Media LLC 2013</a> | <a href='#' class='galPop08'>Ver fotogalería</a>
+                	<a href="">El Nuevo Día - GFR Media LLC 2013</a>
                 </div>
             </div>
         </div>
@@ -2528,36 +2537,47 @@ BCL19.markup = function (html, data) {
 	    $(document).ready(function(){
 			$("a[rel*=leanModal]").leanModal({ top : 155, overlay : 0.8 });
 	    });
-		
 	</script>
-
 
 	<script src="javascripts/jquery.simplemodal.1.4.4.min.js"></script>
     <script>
-		
 	// Load dialog on click
-	$('.galPop08').click(function (e) {
+	$('.galPop02').click(function (e) {
 
 		// Display an external page using an iframe
-		var src = "gal08.html";
-		$.modal('<iframe src="' + src + '" height="655" width="840" style="border:0">', {
+		var src = "gal02.html";
+		$.modal('<iframe src="' + src + '" height="755" width="1080" frameborder=0 marginheight=0 marginwidth=0 style="border:0">', {
 			closeHTML:"",
 			containerCss:{
 				backgroundColor:"#fff", 
 				borderColor:"#fff", 
-				height:660,
+				height:770,
 				padding:0, 
-				width:840
+				width:1105
 			},
 			overlayClose:true
 		});
 		return false;
-
 	});
+	
+	$('.galPop08').click(function (e) {
 
+		// Display an external page using an iframe
+		var src = "gal08.html";
+		$.modal('<iframe src="' + src + '" height="630" width="800" frameborder=0 marginheight=0 marginwidth=0 style="border:0">', {
+			closeHTML:"",
+			containerCss:{
+				backgroundColor:"#fff", 
+				borderColor:"#fff", 
+				height:650,
+				padding:0, 
+				width:825
+			},
+			overlayClose:true
+		});
+		return false;
+	});
     </script>    
-
-
 
 
     <script src="javascripts/jquery.leanModal.min.js"></script>
@@ -2565,8 +2585,6 @@ BCL19.markup = function (html, data) {
     <div id="inf-muertes-por-cancer" class="screenshot-lg"><img src="images/infografias/MUERTES_CANCER.jpg" /><a href="#" id="close-modal">Close Modal</a></div>
     <div id="inf-nuevos-casos-cancer" class="screenshot-lg"><img src="images/infografias/NUEVOS_CASOS_CANCER.jpg" /><a href="#" id="close-modal">Close Modal</a></div>
     <div id="inf-tasa-incidencia-cancer" class="screenshot-lg"><img src="images/infografias/TASA_INCIDENCIA_CANCER.jpg" /><a href="#" id="close-modal">Close Modal</a></div>
-
-
 
 
 </body>
