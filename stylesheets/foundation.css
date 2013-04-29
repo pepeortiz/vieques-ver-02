@@ -98,9 +98,20 @@ ol { margin-left: 20px; }
 ol li ul, ol li ol { margin-left: 20px; margin-bottom: 0; }
 
 /* Blockquotes ---------------------- */
+
+blockquote {
+margin: 0 0 17px;
+padding: 9px 20px 0 19px;
+border-left: 3px solid #0B99CA;
+font-size: 18px;
+font-style: italic;
+font-weight: 700;
+}
+
+
 blockquote, blockquote p { line-height: 1.5; color: #6f6f6f; }
 
-blockquote { margin: 0 0 17px; padding: 9px 20px 0 19px; border-left: 1px solid #dddddd; }
+/* blockquote { margin: 0 0 17px; padding: 9px 20px 0 19px; border-left: 1px solid #dddddd; }*/
 blockquote cite { display: block; font-size: 13px; color: #555555; }
 blockquote cite:before { content: "\2014 \0020"; }
 blockquote cite a, blockquote cite a:visited { color: #555555; }
