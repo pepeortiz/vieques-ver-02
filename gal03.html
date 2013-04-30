@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Fotogalería 04</title>
+
+    <!-- Google Web Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic&subset=latin,cyrillic-ext,greek-ext,greek,latin-ext' rel='stylesheet' type='text/css'>
+
+	<!-- Included JS Files -->
+	<script src="javascripts/jquery-1.9.1.min.js" type="text/javascript"></script>
+    <script src="javascripts/jquery.orbit.min.js" type="text/javascript"></script>
+
+	<!-- Included CSS Files -->
+    <link rel="stylesheet" href="stylesheets/photogalleries.css">
+
+	<style type="text/css">
+	#featured {
+		width: 1080px;
+		height: 720px;
+		background: #000 url('images/orbit-loading.gif') no-repeat center center;
+		overflow: hidden;
+		z-index: 10;
+	}
+	
+	/* CAPTIONS
+   ================================================== */
+	.orbit-caption {
+		display: none }
+	
+	.orbit-wrapper .orbit-caption {
+		background: #000;
+		background: rgba(0,0,0,.6);
+		z-index: 1000;
+		color: #fff;
+		padding: 7px 10px;
+		font-size: 13px;
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		width: 1070px;
+		text-align: center }
+    </style>
+
+</head>
+
+<body>
+
+<div id="featured">
+    <img src="images/protagonistas/03/1-Zenon.jpg" alt="Foto" data-caption="#htmlCaption1" />
+    <img src="images/protagonistas/03/2-Zenon.jpg" alt="Foto" data-caption="#htmlCaption2" />
+    <img src="images/protagonistas/03/3-Zenon.jpg" alt="Foto" data-caption="#htmlCaption3" />
+    <img src="images/protagonistas/03/4-Zenon.jpg" alt="Foto" data-caption="#htmlCaption4" />
+    <img src="images/protagonistas/03/5-Zenon.jpg" alt="Foto" data-caption="#htmlCaption5" />
+</div>
+
+<!-- Captions -->
+<span class="orbit-caption" id="htmlCaption1">Carlos Zenón junto a otros desobedientes en Monte David, el 8 de diciembre de 1999.  (Archivo/ Xavier J. Araújo)</span>
+<span class="orbit-caption" id="htmlCaption2">Carlos Zenón conversa con varios pescadores durante de una reunión convocada por los pescadores del norte y el sur de Vieques donde se llegó a un acuerdo que entrarían a la zona restringida maritima a pescar, sin importa las limitaciones establecidas por la guardia costanera. (Archivo/ José Jiménez)</span>
+<span class="orbit-caption" id="htmlCaption3">Carlos Zenon se prepara para entrar por mar a la zona restringida en horas de la noche, transportando manifestantes para bloquear los bombardeos de la Marina en Vieques el 27 de junio de 2000. (Archivo/Jose Jiménez)</span>
+<span class="orbit-caption" id="htmlCaption4">Presidente de la Asociación de Pescadores, Carlos Zenón ya había sido arrestado 20 años antes de las protestas definitivas en contra de la Marina en Vieques por entrar a pescar en la zona restringida e interrumpir los ejecicios militares. (Carlos Giusti/ carlos.giusti@gfrmedia.com)</span>
+<span class="orbit-caption" id="htmlCaption5">Los hijos de Carlos Zenón, Cacimar y Pedro, también fueron parte de las manifestaciones en contra de la Marina. (Carlos Giusti/ carlos.giusti@gfrmedia.com)</span>
+
+	<script>
+    jQuery(document).ready(function($) {
+        
+        $('#featured').orbit({
+            "bullets" : true, 
+             "timer": false, //true = auto rotate
+            "animation" : "fade" // fade, horizontal-slide, vertical-slide, horizontal-push
+        });
+        
+    });
+    </script>
+
+</body>
+</html>

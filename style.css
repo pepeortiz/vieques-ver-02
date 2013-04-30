@@ -57,108 +57,6 @@ body {
 	margin-left:40px;
 	float:left;
 }
-/*
-.header-social-media {
-	width:100px;
-	height:100px;
-	padding:0px;
-	margin:0px;
-	background-color:#ef3c02;
-	float:right;
-	display:block;
-}
-
-.header-social-button-top-left, .header-social-button-top-right, .header-social-button-bottom-left, .header-social-button-bottom-right {
-	width:50px;
-	height:50px;
-	margin:0;
-	float:left;
-}
-
-.header-social-button-top-left {
-	background:url(images/header-social-media/facebook.png);
-	background-position:0 0;
-	-webkit-transition: all 0.2s;
-	-moz-transition: all 0.2s;
-	-ms-transition: all 0.2s;
-	-o-transition: all 0.2s;
-	transition: all 0.2s;
-	border-right:1px solid #281221;
-}
-
-.header-social-button-top-left:hover {
-	background:url(images/header-social-media/facebook.png);
-	background-position:0 -50px;
-	-webkit-transition: all 0.2s;
-	-moz-transition: all 0.2s;
-	-ms-transition: all 0.2s;
-	-o-transition: all 0.2s;
-	transition: all 0.2s;
-}
-
-.header-social-button-top-right {
-	background:url(images/header-social-media/twitter.png);
-	background-position:0 0;
-	-webkit-transition: all 0.2s;
-	-moz-transition: all 0.2s;
-	-ms-transition: all 0.2s;
-	-o-transition: all 0.2s;
-	transition: all 0.2s;
-}
-
-.header-social-button-top-right:hover {
-	background:url(images/header-social-media/twitter.png);
-	background-position:0 -50px;
-	-webkit-transition: all 0.2s;
-	-moz-transition: all 0.2s;
-	-ms-transition: all 0.2s;
-	-o-transition: all 0.2s;
-	transition: all 0.2s;
-}
-
-.header-social-button-bottom-left {
-	background:url(images/header-social-media/linkedin.png);
-	background-position:0 0;
-	-webkit-transition: all 0.2s;
-	-moz-transition: all 0.2s;
-	-ms-transition: all 0.2s;
-	-o-transition: all 0.2s;
-	transition: all 0.2s;
-	border-right:1px solid #281221;
-	border-top:1px solid #281221;
-}
-
-.header-social-button-bottom-left:hover {
-	background:url(images/header-social-media/linkedin.png);
-	background-position:0 -50px;
-	-webkit-transition: all 0.2s;
-	-moz-transition: all 0.2s;
-	-ms-transition: all 0.2s;
-	-o-transition: all 0.2s;
-	transition: all 0.2s;
-}
-
-.header-social-button-bottom-right {
-	background:url(images/header-social-media/dribbble.png);
-	background-position:0 0;
-	-webkit-transition: all 0.2s;
-	-moz-transition: all 0.2s;
-	-ms-transition: all 0.2s;
-	-o-transition: all 0.2s;
-	transition: all 0.2s;
-	border-top:1px solid #281221;
-}
-
-.header-social-button-bottom-right:hover {
-	background:url(images/header-social-media/dribbble.png);
-	background-position:0 -50px;
-	-webkit-transition: all 0.2s;
-	-moz-transition: all 0.2s;
-	-ms-transition: all 0.2s;
-	-o-transition: all 0.2s;
-	transition: all 0.2s;
-}
-*/
 
 
 
@@ -358,94 +256,6 @@ p.page-content {
 }
 
 /* -----------------------------------------
-   Subscribe
------------------------------------------ */
-
-.subscribe {
-	width:100%;
-	padding:50px 0 50px 0;
-	background:#fff url(images/patterns/noise_pattern_with_crosslines.png) repeat;
-}
-
-.subscription-form {
-	width:540px;
-	margin:0 auto;
-	margin-top:50px;
-}
-
-.subscription-form-email {
-	width:100%;
-	float:left;
-}
-
-form {
-	font-family: 'lato', sans-serif;
-	line-height: 8px;
-	position: relative;
-}
-	
-form span {
-	color:#ccc;
-}
-
-form label.input {
-	height: 40px;
-	background:#d0d2d3;
-	border:none;
-	padding-top: 12px;
-	position: relative;
-	margin-bottom: 15px;
-	margin-top:10px;
-}
-
-form input {
-	height: 40px !important;
-	background:#d0d2d3 !important;
-	border-radius:none !important;
-	font-size: 14px !important;
-	line-height:14px;
-	text-align:center;
-	color: #ef3c02;
-	text-transform: uppercase;
-	font-style: normal;
-	line-height: 27px;
-	margin-bottom:10px;
-	font-family: 'Lato', sans-serif;
-	border:none !important;
-	box-shadow:none !important;
-}
-
-.submit-button {
-	font-family: 'Lato', sans-serif;
-	font-weight:400;
-	font-size:14px;
-	width:200px;
-	height:40px;
-	float:none;
-	color:#ef3c02;
-	text-align:center;
-	border:none;
-	margin-top:9px;
-	background: #d0d2d3;
-	margin-left:170px;
-	-webkit-transition: all 0.2s;
-	-moz-transition: all 0.2s;
-	-ms-transition: all 0.2s;
-	-o-transition: all 0.2s;
-	transition: all 0.2s;
-}
-
-.submit-button:hover {
-	background:#281221 !important;
-	color:#FFF;
-	-webkit-transition: all 0.2s;
-	-moz-transition: all 0.2s;
-	-ms-transition: all 0.2s;
-	-o-transition: all 0.2s;
-	transition: all 0.2s;
-}
-
-/* -----------------------------------------
    Parallax
 ----------------------------------------- */
 
@@ -464,19 +274,19 @@ form input {
 .parallax-one-b {
 	width:100%;
 	height:500px;
-	background:#000 url(images/parallax/curtain-02-1920x1000-b.jpg) 50% 0 no-repeat;
+	background:#000 url(images/parallax/curtain-02-b-1920x1000.jpg) 50% 0 no-repeat;
 }
 
 .parallax-one-c {
 	width:100%;
 	height:500px;
-	background:#000 url(images/parallax/curtain-02-1920x1000-b.jpg) 50% 0 no-repeat;
+	background:#000 url(images/parallax/curtain-02-c-1920x1000.jpg) 50% 0 no-repeat;
 }
 
 .parallax-one-d {
 	width:100%;
 	height:500px;
-	background:#000 url(images/parallax/curtain-02-1920x1000-b.jpg) 50% 0 no-repeat;
+	background:#000 url(images/parallax/curtain-02-d-1920x1000.jpg) 50% 0 no-repeat;
 }
 
 .parallax-one-e {
@@ -488,7 +298,7 @@ form input {
 .parallax-one-f {
 	width:100%;
 	height:500px;
-	background:#000 url(images/parallax/curtain-02-1920x1000-b.jpg) 50% 0 no-repeat;
+	background:#000 url(images/parallax/curtain-02-f-1920x1000.jpg) 50% 0 no-repeat;
 }
 
 .parallax-two {
@@ -644,6 +454,12 @@ form input {
 /* -----------------------------------------
    Custom
 ----------------------------------------- */
+.caption {
+	font-family: 'PT Sans', "times new roman", times, serif;
+	font-size: 14px;
+	color: #808080;
+	line-height: 16px;
+}
 
 .padding-four-columns {
 	padding-right:10px !important;
@@ -653,10 +469,10 @@ form input {
 
 h3.mirada-al-pasado-title {
 	font-family: 'Ubuntu', sans-serif;
-	font-weight:300;
+	font-weight:400;
 	font-style: normal;
-	font-size:24px;
-	line-height:32px;
+	font-size:18px;
+	line-height:18px;
 	text-transform:none;
 	color:#58595b !important;
 	width:100%;
@@ -672,6 +488,10 @@ h3.mirada-al-pasado-title {
    	-o-transition: all 0.4s ease-in-out;
    	-ms-transition: all 0.4s ease-in-out;
    	transition: all 0.4s ease-in-out;
+}
+
+.four.columns.padding-four-columns.mobile-two:hover {
+	background-color: whitesmoke;
 }
 
 p.mirada-al-pasado-text {
@@ -764,12 +584,12 @@ p.mirada-al-pasado-text {
 }
 
 .comienzo-de-una-lucha-canvas p {
-	padding: 0 315px 20px 50px;
+	padding: 0 85px 20px 0;
 	margin: 0;
 }
 
 .monte-carmelo-canvas p {
-	padding: 0 315px 20px 50px;
+	padding: 0 200px 20px 180px;
 	margin: 0;
 }
 
@@ -1122,6 +942,41 @@ p.mirada-al-pasado-text {
 .end_video_container_box-2316625448001b:hover {
 	background: url(images/video-still-549x309-2316625448001b-on.jpg) 50% 50% no-repeat;
 }
+/* ---------------------------------------------
+2324740163001 */
+.end_video_container_box-2324740163001 {
+	background-color:#000000; width:559px; height:319px; padding:4px; margin:0 0 20px 50px; cursor: hand; cursor: pointer; border: 1px solid #808080;
+}
+.end_video_container_box-2324740163001 {
+	background: #000 url(images/video-still-549x309-2324740163001-off.jpg) 50% 50% no-repeat;
+}
+.end_video_container_box-2324740163001:hover {
+	background: url(images/video-still-549x309-2324740163001-on.jpg) 50% 50% no-repeat;
+}
+/* ---------------------------------------------
+2316693379001 */
+.end_video_container_box-2316693379001 {
+	background-color:#000000; width:559px; height:319px; padding:4px; margin:0 0 20px 50px; cursor: hand; cursor: pointer; border: 1px solid #808080;
+}
+.end_video_container_box-2316693379001 {
+	background: #000 url(images/video-still-549x309-2316693379001-off.jpg) 50% 50% no-repeat;
+}
+.end_video_container_box-2316693379001:hover {
+	background: url(images/video-still-549x309-2316693379001-on.jpg) 50% 50% no-repeat;
+}
+/* ---------------------------------------------
+2316607176001 */
+.end_video_container_box-2316607176001b {
+	background-color:#000000; width:559px; height:319px; padding:4px; margin:0 0 20px 50px; cursor: hand; cursor: pointer; border: 1px solid #808080;
+}
+.end_video_container_box-2316607176001b {
+	background: #000 url(images/video-still-549x309-2316607176001-off.jpg) 50% 50% no-repeat;
+}
+.end_video_container_box-2316607176001b:hover {
+	background: url(images/video-still-549x309-2316607176001-on.jpg) 50% 50% no-repeat;
+}
+
+
 
 
 

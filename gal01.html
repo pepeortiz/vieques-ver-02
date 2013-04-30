@@ -2,213 +2,79 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Fotogalería</title>
+<title>Fotogalería 01</title>
 
     <!-- Google Web Fonts -->
     <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic&subset=latin,cyrillic-ext,greek-ext,greek,latin-ext' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Gentium+Book+Basic:400,400italic,700,700italic&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
 
 	<!-- Included JS Files -->
-	<script src="javascript/jquery-1.9.1.min.js" type="text/javascript"></script>
-    <script src="javascript/jquery.orbit.min.js" type="text/javascript"></script>
+	<script src="javascripts/jquery-1.9.1.min.js" type="text/javascript"></script>
+    <script src="javascripts/jquery.orbit.min.js" type="text/javascript"></script>
 
-<script>
-jQuery(document).ready(function($) {
+	<!-- Included CSS Files -->
+    <link rel="stylesheet" href="stylesheets/photogalleries.css">
+
+	<style type="text/css">
+	#featured {
+		width: 500px;
+		height: 650px;
+		background: #000 url('images/orbit-loading.gif') no-repeat center center;
+		overflow: hidden;
+		z-index: 10;
+	}
 	
-	$('#featured').orbit({
-		"bullets" : true, 
-		 "timer": false, //true = auto rotate
-		"animation" : "fade" // fade, horizontal-slide, vertical-slide, horizontal-push
-  	});
+	/* CAPTIONS
+   ================================================== */
+	.orbit-caption {
+		display: none }
 	
-});
-</script>
-
-<style type="text/css">
-
-body {
-	font-family: Arial, Helvetica, Helvetica Neue, Verdana, sans-serif;
-	font-size: 13px;
-	line-height: 18px;
-	color: #555;
-}
-
-/* CONTAINER
-   ================================================== */
-
-div.orbit-wrapper {
-    width: 1px;
-    height: 1px;
-    position: relative; }
-
-div.orbit {
-    width: 1px;
-    height: 1px;
-    position: relative;
-    overflow: hidden }
-
-div.orbit img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: none; }
-
-div.orbit a img {
-    border: none }
-
-.orbit div {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%; }
-
-/* CAPTIONS
-   ================================================== */
-
-.orbit-caption {
-    display: none }
-
-.orbit-wrapper .orbit-caption {
-    background: #000;
-    background: rgba(0,0,0,.6);
-    z-index: 1000;
-    color: #fff;
-    padding: 7px 10px;
-    font-size: 13px;
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    width: 920px;
-    text-align: center }
-
-
-/* DIRECTIONAL NAV
-   ================================================== */
-
-div.slider-nav {
-    display: block }
-
-div.slider-nav span {
-    width: 78px;
-    height: 100px;
-    text-indent: -9999px;
-    position: absolute;
-    z-index: 1000;
-    top: 50%;
-    margin-top: -50px;
-    cursor: pointer; }
-
-div.slider-nav span.right {
-    background: url(images/right-arrow.png);
-    right: 0; }
-
-div.slider-nav span.left {
-    background: url(images/left-arrow.png);
-    left: 0; }
-
-/* BULLET NAV
-   ================================================== */
-
-.orbit-bullets {
-    position: absolute;
-    z-index: 1000;
-    list-style: none;
-    bottom: -40px;
-    left: 50%;
-	margin-left: -50px;
-    padding: 0; }
-
-.orbit-bullets li {
-    float: left;
-    margin-left: 5px;
-    cursor: pointer;
-    color: #999;
-    text-indent: -9999px;
-    background: url(images/bullets.jpg) no-repeat 4px 0;
-    width: 13px;
-    height: 12px;
-    overflow: hidden; }
-
-.orbit-bullets li.has-thumb {
-    background: none;
-    width: 100px;
-    height: 75px; }
-
-.orbit-bullets li.active {
-    color: #222;
-    background-position: -8px 0; }
-
-.orbit-bullets li.active.has-thumb {
-    background-position: 0 0;
-    border-top: 2px solid #000; }
-
-/* stuff for ZURB demo but not needed at all for orbit */
-#featured {
-	width: 940px;
-	height: 450px;
-	background: #000 url('images/orbit-loading.gif') no-repeat center center;
-	overflow: hidden;
-	z-index: 10;
-}
-#featured img,
-#featured div { display: none; }
-/*
-#featured .content {
-	background: url(http://zurb.com/playground/playground/jquery-image-slider-plugin/coffee.jpg);
-}
-*/
-#featured .content h1 {
-	font-family: 'Ubuntu', 'PT Sans', serif;
-	font-size: 40px;
-	color: #2f260f;
-	font-weight: normal !important;
-	text-transform: uppercase;
-	text-shadow:
-		1px 1px 0 #f8f0d1,
-		2px 2px 0 #f8f0d1,
-		3px 3px 0 #1a5774;
-	text-align: center;
-	margin-top: 190px;
-}
-#featured .content h3 {
-	font-family: 'Ubuntu', 'PT Sans', serif;
-	font-size: 20px;
-	color: #7f6b37;
-	text-transform: uppercase;
-	font-weight: normal !important;
-	text-align: center;
-}
-
-.slider-background {
-	background: url(images/slider-background.jpg) repeat-x;
-	height: 366px;
-	width: 5000px;
-	position: absolute;
-	top: 40px;
-	left: -2300px;
-	z-index: -1;
-}
-body { overflow-x: hidden; }
-
-</style>
+	.orbit-wrapper .orbit-caption {
+		background: #000;
+		background: rgba(0,0,0,.6);
+		z-index: 1000;
+		color: #fff;
+		padding: 7px 10px;
+		font-size: 13px;
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		width: 490px;
+		text-align: center }
+    </style>
 
 </head>
 
 <body>
 
+<div id="featured">
+    <img src="images/protagonistas/01/titokayak1.jpg" alt="Foto" data-caption="#htmlCaption1" />
+    <img src="images/protagonistas/01/titokayak2.jpg" alt="Foto" data-caption="#htmlCaption2" />
+    <img src="images/protagonistas/01/titokayak3.jpg" alt="Foto" data-caption="#htmlCaption3" />
+    <img src="images/protagonistas/01/titokayak4.jpg" alt="Foto" data-caption="#htmlCaption4" />
+    <img src="images/protagonistas/01/titokayak5.jpg" alt="Foto" data-caption="#htmlCaption5" />
+    <img src="images/protagonistas/01/titokayak6.jpg" alt="Foto" data-caption="#htmlCaption6" />
+</div>
 
-			<div id="featured">
-				<img src="http://zurb.com/playground/playground/jquery-image-slider-plugin/overflow.jpg" alt="Overflow: Hidden No More" />
-				<img src="http://zurb.com/playground/playground/jquery-image-slider-plugin/captions.jpg"  alt="HTML Captions" data-caption="#htmlCaption" />
-				<img src="http://zurb.com/playground/playground/jquery-image-slider-plugin/features.jpg" alt="and more features" />
-			</div>
-			<!-- Captions for Orbit -->
-			<span class="orbit-caption" id="htmlCaption"><strong>I'm A Badass Caption:</strong> I can haz <a href="#">links</a>, <em>style</em> or anything that is valid markup :)</span>
-			<br /><br />
+<!-- Captions -->
+<span class="orbit-caption" id="htmlCaption1">Alberto de Jesús, mejor conocido como Tito Kayak, realizó varias manifestaciones dentro y fuera de Puerto Rico como parte de la lucha para sacar la Marina de Vieques. En una de sus protestas,  De Jesús se metió y amarró a uno de los tanques de Monte David en los terrenos restringidos. (Archivo / El Nuevo Día)</span>
+<span class="orbit-caption" id="htmlCaption2">Tito Kayak realizó una singular manifestación en Nueva York al izar una bandera de Puerto Rico y otra de Vieques en el tope de la Estatua de la Libertad el 5 de noviembre de 2000.  (Archivo / AP)</span>
+<span class="orbit-caption" id="htmlCaption3">Tras bajarse de la Estatua de la Libertad, fue detenido. (Archivo / AP)</span>
+<span class="orbit-caption" id="htmlCaption4">De Jesús fue arrestado por penetrar los terrenos de la Marina  el 1 de junio de 2000. (Archivo / El Nuevo Día)</span>
+<span class="orbit-caption" id="htmlCaption5">Tito Kayak cumplió un año de cárcel por desobediencia civil. En marzo de 2002, tras recuperar su libertad, volvió a la capilla ecuménica frente al Capitolio, donde lo recibieron decenas de activistas por Vieques. (Archivo / Primera Hora)</span>
+<span class="orbit-caption" id="htmlCaption6">Alberto de Jesús izó la bandera de Vieques en el tope de la plataforma desde donde se observaban las prácticas bélicas en Vieques el 1 de mayo de 2003. Esa madrugada se produjeron disturbios para celebrar el fin de casi 60 años de bombardeo en Isla Nena. (Archivo / AP)</span>
 
+	<script>
+    jQuery(document).ready(function($) {
+        
+        $('#featured').orbit({
+            "bullets" : true, 
+             "timer": false, //true = auto rotate
+            "animation" : "fade" // fade, horizontal-slide, vertical-slide, horizontal-push
+        });
+        
+    });
+    </script>
 
 </body>
 </html>
