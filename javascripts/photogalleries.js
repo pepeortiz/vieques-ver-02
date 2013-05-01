@@ -72,6 +72,24 @@
 		return false;
 	});
 	
+	$('.galPop09').click(function (e) {
+
+		// Display an external page using an iframe
+		var src = "gal09.html";
+		$.modal('<iframe src="' + src + '" height="630" width="800" frameborder=0 marginheight=0 marginwidth=0 style="border:0">', {
+			closeHTML:"",
+			containerCss:{
+				backgroundColor:"#fff", 
+				borderColor:"#fff", 
+				height:650,
+				padding:0, 
+				width:825
+			},
+			overlayClose:true
+		});
+		return false;
+	});
+	
 	$('.galPop13').click(function (e) {
 
 		// Display an external page using an iframe

@@ -305,37 +305,37 @@ p.page-content {
 .parallax-one-a {
 	width:100%;
 	height:500px;
-	background:#000 url(images/parallax/curtain-02-a-1920x1000.jpg) 50% 0 no-repeat;
+	background:#000 url(images/parallax/curtain-02-a-1920x500-01.jpg) 50% 0 no-repeat;
 }
 
 .parallax-one-b {
 	width:100%;
 	height:500px;
-	background:#000 url(images/parallax/curtain-02-b-1920x1000.jpg) 50% 0 no-repeat;
+	background:#000 url(images/parallax/curtain-02-b-1920x500-01.jpg) 50% 0 no-repeat;
 }
 
 .parallax-one-c {
 	width:100%;
 	height:500px;
-	background:#000 url(images/parallax/curtain-02-c-1920x1000.jpg) 50% 0 no-repeat;
+	background:#000 url(images/parallax/curtain-02-c-1920x500-01.jpg) 50% 0 no-repeat;
 }
 
 .parallax-one-d {
 	width:100%;
 	height:500px;
-	background:#000 url(images/parallax/curtain-02-d-1920x1000.jpg) 50% 0 no-repeat;
+	background:#000 url(images/parallax/curtain-02-d-1920x500-01.jpg) 50% 0 no-repeat;
 }
 
 .parallax-one-e {
 	width:100%;
 	height:500px;
-	background:#000 url(images/parallax/curtain-02-e-1920x1000.jpg) 50% 0 no-repeat;
+	background:#000 url(images/parallax/curtain-02-e-1920x500-01.jpg) 50% 0 no-repeat;
 }
 
 .parallax-one-f {
 	width:100%;
 	height:500px;
-	background:#000 url(images/parallax/curtain-02-f-1920x1000.jpg) 50% 0 no-repeat;
+	background:#000 url(images/parallax/curtain-02-f-1920x500-01.jpg) 50% 0 no-repeat;
 }
 
 .parallax-two {
@@ -347,13 +347,13 @@ p.page-content {
 .parallax-three {
 	width:100%;
 	height:500px;
-	background:#000 url(images/parallax/curtain-06-1920x1000.jpg) 50% 0 no-repeat;
+	background:#000 url(images/parallax/curtain-06-1920x500-01.jpg) 50% 0 no-repeat;
 }
 
 .parallax-six {
 	width:100%;
 	height:500px;
-	background:#000 url(images/parallax/curtain-06-a-1920x1000-01.jpg) 50% 0 no-repeat;
+	background:#000 url(images/parallax/curtain-06-a-1920x500-01.jpg) 50% 0 no-repeat;
 }
 
 .parallax-six-a {
@@ -365,25 +365,25 @@ p.page-content {
 .parallax-six-b {
 	width:100%;
 	height:500px;
-	background:#000 url(images/parallax/curtain-06-c-1920x1000-01.jpg) 50% 0 no-repeat;
+	background:#000 url(images/parallax/curtain-06-c-1920x500-01.jpg) 50% 0 no-repeat;
 }
 
 .parallax-six-c {
 	width:100%;
 	height:500px;
-	background:#000 url(images/parallax/curtain-06-d-1920x1000-01.jpg) 50% 0 no-repeat;
+	background:#000 url(images/parallax/curtain-06-d-1920x500-01.jpg) 50% 0 no-repeat;
 }
 
 .parallax-six-d {
 	width:100%;
 	height:500px;
-	background:#000 url(images/parallax/curtain-06-e-1920x1000-01.jpg) 50% 0 no-repeat;
+	background:#000 url(images/parallax/curtain-06-e-1920x500-01.jpg) 50% 0 no-repeat;
 }
 
 .parallax-eight-a {
 	width:100%;
 	height:500px;
-	background:#000 url(images/parallax/curtain-08-a-1920x1000-01.jpg) 50% 0 no-repeat;
+	background:#000 url(images/parallax/curtain-08-a-1920x500-01.jpg) 50% 0 no-repeat;
 }
 
 
@@ -1053,8 +1053,50 @@ p.mirada-al-pasado-text {
 .end_video_container_box-2316607176001b:hover {
 	background: url(images/video-still-549x309-2316607176001-on.jpg) 50% 50% no-repeat;
 }
-
-
+/* ---------------------------------------------
+2322192119001 */
+.end_video_container_box-2322192119001 {
+	background-color:#000000; width:559px; height:319px; padding:4px; margin:0 0 20px 50px; cursor: hand; cursor: pointer; border: 1px solid #808080;
+}
+.end_video_container_box-2322192119001 {
+	background: #000 url(images/video-still-549x309-2322192119001-off.jpg) 50% 50% no-repeat;
+}
+.end_video_container_box-2322192119001:hover {
+	background: url(images/video-still-549x309-2322192119001-on.jpg) 50% 50% no-repeat;
+}
+/* ---------------------------------------------
+2341162576001 */
+.end_video_container_box-2341162576001 {
+	background-color:#000000; width:559px; height:319px; padding:4px; margin:0 0 20px 50px; cursor: hand; cursor: pointer; border: 1px solid #808080;
+}
+.end_video_container_box-2341162576001 {
+	background: #000 url(images/video-still-549x309-2341162576001-off.jpg) 50% 50% no-repeat;
+}
+.end_video_container_box-2341162576001:hover {
+	background: url(images/video-still-549x309-2341162576001-on.jpg) 50% 50% no-repeat;
+}
+/* ---------------------------------------------
+2341162576001 */
+.end_video_container_box-2341125054001 {
+	background-color:#000000; width:559px; height:319px; padding:4px; margin:0 0 20px 50px; cursor: hand; cursor: pointer; border: 1px solid #808080;
+}
+.end_video_container_box-2341125054001 {
+	background: #000 url(images/video-still-549x309-2341125054001-off.jpg) 50% 50% no-repeat;
+}
+.end_video_container_box-2341125054001:hover {
+	background: url(images/video-still-549x309-2341125054001-on.jpg) 50% 50% no-repeat;
+}
+/* ---------------------------------------------
+2324725961001 */
+.end_video_container_box-2324725961001 {
+	background-color:#000000; width:559px; height:319px; padding:4px; margin:0 0 20px 50px; cursor: hand; cursor: pointer; border: 1px solid #808080;
+}
+.end_video_container_box-2324725961001 {
+	background: #000 url(images/video-still-549x309-2324725961001-off.jpg) 50% 50% no-repeat;
+}
+.end_video_container_box-2324725961001:hover {
+	background: url(images/video-still-549x309-2324725961001-on.jpg) 50% 50% no-repeat;
+}
 
 /* -----------------------------------------
 	Subnav
