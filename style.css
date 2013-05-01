@@ -88,7 +88,38 @@ body {
 
 
 
+/* -----------------------------------------
+   Brightcove - player size style hacks
+----------------------------------------- */
 
+#BCLcontainingBlock {
+  width: 550px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  /*float: right;*/
+}
+.BCLvideoWrapper {
+  position: relative;
+  padding-top: 1px;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+* html .BCLvideoWrapper {
+  margin-bottom: 45px;
+  margin-top: 0;
+  width: 100%;
+  height: 100%;
+}
+.BCLvideoWrapper div,
+.BCLvideoWrapper embed,
+.BCLvideoWrapper object,
+.BrightcoveExperience {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
 
 
 
@@ -265,10 +296,16 @@ p.page-content {
 	background:#000 url(images/parallax/curtain-02-1920x1000-b.jpg) 50% 0 no-repeat;
 }
 
+.parallax-protagonistas {
+	width:100%;
+	height:500px;
+	background:#000 url(images/parallax/curtain-02-a-1920x1000.jpg) 50% 0 no-repeat;
+}
+
 .parallax-one-a {
 	width:100%;
-	height:661px;
-	background:#fff url(images/parallax/curtain-01-1920x661.jpg) 50% 0 no-repeat;
+	height:500px;
+	background:#000 url(images/parallax/curtain-02-a-1920x1000.jpg) 50% 0 no-repeat;
 }
 
 .parallax-one-b {
@@ -312,6 +349,47 @@ p.page-content {
 	height:500px;
 	background:#000 url(images/parallax/curtain-06-1920x1000.jpg) 50% 0 no-repeat;
 }
+
+.parallax-six {
+	width:100%;
+	height:500px;
+	background:#000 url(images/parallax/curtain-06-a-1920x1000-01.jpg) 50% 0 no-repeat;
+}
+
+.parallax-six-a {
+	width:100%;
+	height:500px;
+	background:#000 url(images/parallax/curtain-06-b-1920x1000-01.jpg) 50% 0 no-repeat;
+}
+
+.parallax-six-b {
+	width:100%;
+	height:500px;
+	background:#000 url(images/parallax/curtain-06-c-1920x1000-01.jpg) 50% 0 no-repeat;
+}
+
+.parallax-six-c {
+	width:100%;
+	height:500px;
+	background:#000 url(images/parallax/curtain-06-d-1920x1000-01.jpg) 50% 0 no-repeat;
+}
+
+.parallax-six-d {
+	width:100%;
+	height:500px;
+	background:#000 url(images/parallax/curtain-06-e-1920x1000-01.jpg) 50% 0 no-repeat;
+}
+
+.parallax-eight-a {
+	width:100%;
+	height:500px;
+	background:#000 url(images/parallax/curtain-08-a-1920x1000-01.jpg) 50% 0 no-repeat;
+}
+
+
+
+
+
 
 .parallax-inner {
 	width:100%;
@@ -978,7 +1056,185 @@ p.mirada-al-pasado-text {
 
 
 
+/* -----------------------------------------
+	Subnav
+------------------------------------------ */
 
+#header .inner .clearfix {
+	overflow: hidden;
+}
+
+#subnav_menu
+{
+	/*display:block!important;*/
+	display:none;
+}
+
+#subnav
+{
+	margin-left:335px;
+	padding-bottom:4px;
+	padding-left:4px;
+	/*position:relative;*/
+	position: absolute;
+	margin-top: 60px;
+}
+
+#subnav-dos
+{
+	margin-left:335px;
+	padding-bottom:4px;
+	padding-left:4px;
+	/*position:relative;*/
+	position: absolute;
+	margin-top: 60px;
+}
+
+#subnav .subnav
+{
+	-moz-border-radius:0 0 3px 3px;
+	-moz-box-shadow:0 1px 4px 0 #000;
+	-webkit-border-radius:0 0 3px 3px;
+	-webkit-box-shadow:0 1px 4px 0 #000;
+	background:#C4161C;
+	border-radius:0 0 3px 3px;
+	box-shadow:0 1px 4px 0 #000;
+	clear:both;
+	display:none;
+	list-style:none;
+	overflow:hidden;
+}
+
+#subnav-dos .subnav-dos
+{
+	-moz-border-radius:0 0 3px 3px;
+	-moz-box-shadow:0 1px 4px 0 #000;
+	-webkit-border-radius:0 0 3px 3px;
+	-webkit-box-shadow:0 1px 4px 0 #000;
+	background:#C4161C;
+	border-radius:0 0 3px 3px;
+	box-shadow:0 1px 4px 0 #000;
+	clear:both;
+	display:none;
+	list-style:none;
+	overflow:hidden;
+}
+
+#subnav li
+{
+	background:#C4161C;
+	color:#FEF5E0;
+	display:block;
+	float:left;
+	font-family:Arial,Helvetica,sans-serif;
+	font-weight:400;
+	height:auto;
+	line-height:1em;
+	padding:3px 0 5px;
+	text-decoration:underline;
+	width:111px;
+}
+
+#subnav-dos li
+{
+	background:#C4161C;
+	color:#FEF5E0;
+	display:block;
+	float:left;
+	font-family:Arial,Helvetica,sans-serif;
+	font-weight:400;
+	height:auto;
+	line-height:1em;
+	padding:3px 0 5px;
+	text-decoration:underline;
+	width:111px;
+}
+
+#subnav a
+{
+	height:auto;
+	padding:10px;
+}
+
+#subnav-dos a
+{
+	height:auto;
+	padding:10px;
+}
+
+#subnav_menu
+{
+	width:680px;
+}
+
+#subnav-dos_menu
+{
+	width:680px;
+}
+
+#subnav .subnav .active,#subnav .subnav li:hover
+{
+	background:#D93518;
+	color:#FEF5E0;
+	display:block!important;
+}
+
+#subnav-dos .subnav-dos .active,#subnav-dos .subnav-dos li:hover
+{
+	background:#D93518;
+	color:#FEF5E0;
+	display:block!important;
+}
+
+#subnav .subnav a
+{
+	background:none;
+	border-left:1px solid #e84629;
+	border-right:1px solid #b82d14;
+	color:#FEF5E0;
+	display:block;
+	font-size:11px;
+	line-height:1.2em;
+	padding:6px 10px;
+	text-decoration:none;
+	text-indent:0;
+	/*text-transform:uppercase;*/
+}
+
+#subnav-dos .subnav-dos a
+{
+	background:none;
+	border-left:1px solid #e84629;
+	border-right:1px solid #b82d14;
+	color:#FEF5E0;
+	display:block;
+	font-size:11px;
+	line-height:1.2em;
+	padding:6px 10px;
+	text-decoration:none;
+	text-indent:0;
+	/*text-transform:uppercase;*/
+}
+
+#subnav .subnav .first a
+{
+	border-left:none;
+}
+
+#subnav-dos .subnav-dos .first a
+{
+	border-left:none;
+}
+
+#subnav .subnav .last a
+{
+	border-right:none;
+}
+
+#subnav-dos .subnav-dos .last a
+{
+	border-right:none;
+}
 
 
 /* -----------------------------------------
