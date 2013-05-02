@@ -159,7 +159,7 @@ body {
 .overlay {
 	width:100%;
 	height:100%;
-	position:absolute;
+	/*position:absolute;*/
 	background:url(images/overlays/01.png) repeat;
 	opacity:0.7;
 }
@@ -292,14 +292,14 @@ p.page-content {
 
 .parallax-one {
 	width:100%;
-	height:500px;
-	background:#000 url(images/parallax/curtain-02-1920x1000-b.jpg) 50% 0 no-repeat;
+	height:50px;
+	background-color:#000;
 }
 
 .parallax-protagonistas {
 	width:100%;
 	height:500px;
-	background:#000 url(images/parallax/curtain-02-a-1920x1000.jpg) 50% 0 no-repeat;
+	background:#000 url(images/parallax/curtain-02-a-1920x500-01.jpg) 50% 0 no-repeat;
 }
 
 .parallax-one-a {
@@ -359,7 +359,7 @@ p.page-content {
 .parallax-six-a {
 	width:100%;
 	height:500px;
-	background:#000 url(images/parallax/curtain-06-b-1920x1000-01.jpg) 50% 0 no-repeat;
+	background:#000 url(images/parallax/curtain-06-b-1920x500-01.jpg) 50% 0 no-repeat;
 }
 
 .parallax-six-b {
@@ -385,8 +385,11 @@ p.page-content {
 	height:500px;
 	background:#000 url(images/parallax/curtain-08-a-1920x500-01.jpg) 50% 0 no-repeat;
 }
-
-
+.parallax-ten {
+	width:100%;
+	height:50px;
+	background-color:#000;
+}
 
 
 
@@ -1119,7 +1122,7 @@ p.mirada-al-pasado-text {
 	padding-left:4px;
 	/*position:relative;*/
 	position: absolute;
-	margin-top: 60px;
+	margin-top: 61px;
 }
 
 #subnav-dos
@@ -1129,7 +1132,7 @@ p.mirada-al-pasado-text {
 	padding-left:4px;
 	/*position:relative;*/
 	position: absolute;
-	margin-top: 60px;
+	margin-top: 61px;
 }
 
 #subnav .subnav
@@ -1206,12 +1209,13 @@ p.mirada-al-pasado-text {
 
 #subnav_menu
 {
-	width:680px;
+	width:672px;
 }
 
 #subnav-dos_menu
 {
-	width:680px;
+	width:448px;
+	margin-left: 270px;
 }
 
 #subnav .subnav .active,#subnav .subnav li:hover
@@ -1914,7 +1918,7 @@ p.single-project-content {
 .footer {
 	width:100%;
 	height:100px;
-	background:#333 url(images/patterns/black_thread.png)repeat;
+	background-color:#000;
 }
 
 .to-top {
