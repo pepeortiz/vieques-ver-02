@@ -575,6 +575,10 @@ h3.mirada-al-pasado-title {
 	background-color: whitesmoke;
 }
 
+.five.columns.padding-five-columns:hover {
+	background-color: whitesmoke;
+}
+
 p.mirada-al-pasado-text {
 	font-family: 'Lato', sans-serif;
 	font-weight:400;
@@ -592,7 +596,17 @@ p.mirada-al-pasado-text {
 	float:left;
 }
 
-
+.bajante {
+	font-family:'Gentium Book Basic', sans-serif;
+	font-size: 18px;
+	font-style: italic;
+	border-top: 1px solid #7C7C7C;
+	border-bottom: 1px solid #7C7C7C;
+	padding:15px;
+	color: #7C7C7C;
+	margin-bottom: 20px;
+	clear: both;
+}
 
 /* -----------------------------------------
    Custom - Mirada al pasado
