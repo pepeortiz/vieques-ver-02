@@ -1296,6 +1296,34 @@ p.mirada-al-pasado-text {
 	border-right:none;
 }
 
+/* -----------------------------------------
+   Custom - Audio Styles
+----------------------------------------- */
+
+
+.audioLeft {
+	width: 255px;
+	float: left;
+	margin: 5px 30px 20px -215px;
+}
+
+
+.audioLeftTxt {
+	font-family: 'Ubuntu',sans-serif;
+	font-size: 14px;
+	width: 230px;
+	float: right;
+	padding-bottom: 12px;
+}
+
+.audioLeftIcon {
+	background: #fff url(images/1367871040_sound_high.png) 0 0 no-repeat;
+	width: 16px;
+	height: 16px;
+	float: left;
+}
+
+
 
 /* -----------------------------------------
    Custom - Photo collage (inspiracion art)

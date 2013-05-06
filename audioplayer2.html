@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>audio.js</title>
+    <style>
+      p { clear: both; }
+    </style>
+    <script src="audios/audio.js"></script>
+    <script>
+      audiojs.events.ready(function() {
+        var audios = document.getElementsByTagName('audio');
+
+        var a1 = audiojs.create(audios[0]);
+
+      });
+    </script>
+  </head>
+  <body>
+
+    <p>Automatic player markup</p>
+    <audio preload="auto" src="audios/Clip_MIKE_BARANDIARAN_seguridadpublico.mp3"></audio>
+<!--
+    <p>Manual player markup (passed into the option object)</p>
+    <audio src="http://s3.amazonaws.com/audiojs/04-islands-is-the-limit.mp3" preload="auto"></audio>
+-->
+
+  </body>
+</html>

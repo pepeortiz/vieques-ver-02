@@ -61,6 +61,23 @@
 	<!-- JS User Agent detect and redirect -->
 	<script src="javascripts/script.js"></script>
     
+
+	<!-- HTML5 Audio Player -->
+    <script src="audios/audio.js"></script>
+    <script>
+      audiojs.events.ready(function() {
+        var audios = document.getElementsByTagName('audio');
+
+        var a1 = audiojs.create(audios[0]); //Clip_MIKE_BARANDIARAN_seguridadpublico
+		var a2 = audiojs.create(audios[1]); //Clip_MIKE_BARANDIARAN_FandW
+		var a3 = audiojs.create(audios[2]); //Clip_testigos_CAMILE_ROLDAN
+		var a4 = audiojs.create(audios[3]); //Clip_testigos_TORRES_GOTAY
+		var a5 = audiojs.create(audios[4]); //Clip_testigos_BENJAMIN_MORALES
+
+      });
+    </script>
+
+
 </head>
 <body id="homepage">
 
@@ -111,14 +128,13 @@
         
         <!-- Mobile Navigation -->
         <select class="responsive-nav show-for-small" onchange="moveTo(this.value)" onFocus="moveTo(this.value)">
-        	<option value="" selected="">Main Navigation</option>
-        	<option value="./">Home</option>
-        	<option value="#subscribe">Subscribe</option>
-        	<option value="#twitter">Social Media</option>
-        	<option value="http://themeforest.net/item/flatr-metro-parallax-multipurpose-coming-soon/4513778">Purchase</option>
-        	<option value="http://www.facebook.com/AvaPremiumThemes">Facebook</option>
-        	<option value="https://twitter.com/AVAThemes">Twitter</option>
-        	<option value="http://dribbble.com/AVAThemes">Dribbble</option>
+        	<option value="" selected="">Navegación</option>
+        	<option value="./">Inicio</option>
+        	<option value="#mirada-al-pasado">Mirada al pasado</option>
+        	<option value="#protagonistas-de-una-lucha-cover">Protagonistas de una lucha</option>
+        	<option value="#vieques-hoy-cover">Vieques hoy</option>
+        	<option value="#el-futuro-de-la-isla-nena-cover">El futuro de la Isla Nena</option>
+        	<option value="#el-editorial-cover">Editorial</option>
 		</select>
         
 
@@ -1943,7 +1959,20 @@ BCL11.markup = function (html, data) {
 
 <p class="page-content">En Vieques también es motivo de discordia la presencia del Servicio Federal de Pesca y Vida Silvestre (USFWS, en inglés), que desde hace 10 años administra la gran mayoría de los terrenos que ocupaba la Marina.</p>
 
-<p class="page-content">En específico, el USFWS tiene a su haber 18,298 cuerdas que conforman el Refugio Nacional de Vida Silvestre de Vieques, área en la que tanto locales como visitantes tienen acceso restringido o prohibido. Al municipio le fueron cedidas unas 4,000 cuerdas y al Fideicomiso de Conservación de Puerto Rico otras 800.</p>
+
+
+
+<div id="audioLeft" class="audioLeft" style="">
+<div class="audioLeftIcon"></div>
+<div class="audioLeftTxt"><strong>Mike Barandiaran</strong>, administrador del Refugio Nacional de Vida Silvestre de Vieques</div>
+<audio preload="auto" src="audios/Clip_MIKE_BARANDIARAN_FandW.mp3"></audio>
+</div>
+
+
+
+
+
+<p class="page-content" style="padding-right: 175px;">En específico, el USFWS tiene a su haber 18,298 cuerdas que conforman el Refugio Nacional de Vida Silvestre de Vieques, área en la que tanto locales como visitantes tienen acceso restringido o prohibido. Al municipio le fueron cedidas unas 4,000 cuerdas y al Fideicomiso de Conservación de Puerto Rico otras 800.</p>
 
 <figure style="margin-left: -220px; float: left; width: 65%; display: inline-block; margin-right: 30px;">
 <div class="">
@@ -2636,6 +2665,14 @@ La Agencia para Sustancias Tóxicas y el Registro de Enfermedades (ATSDR, en ing
 
 
 <p class="page-content" style="padding: 0 15px 20px 10px;">Para este año fiscal se proyecta una inversión adicional de $19.7 millones. Toda la limpieza podría costar $536.9 millones. Vélez aclaró que la limpieza en las aguas alrededor de la antigua zona de tiro aún no ha iniciado.</p>
+
+
+<div id="audioLeft" class="audioLeft" style="">
+<div class="audioLeftIcon"></div>
+<div class="audioLeftTxt"><strong>Mike Barandiaran</strong>, administrador del Servicio Federal de Pesca y Vida Silvestre</div>
+<audio preload="auto" src="audios/Clip_MIKE_BARANDIARAN_seguridadpublico.mp3"></audio>
+</div>
+
 
 <p class="page-content" style="padding: 0 15px 20px 10px;">Por su parte, Mike Barandiaran, administrador del Refugio Nacional de Vida Silvestre de Vieques, señaló que unas 900 cuerdas de la antigua zona de tiro -conocidas como Live Impact Area- nunca serán abiertas al público porque no se puede garantizar su seguridad.</p>
 
@@ -4304,6 +4341,12 @@ Durante la lucha en Vieques: ama de casa,  miembro de la Alianza de Mujeres Vieq
 
 <p class="single-news-content">Roldán contó que una noche acompañaba a un grupo de mujeres liderada por la fenecida líder nacionalista Lolita Lebrón a una zona restringida donde colocarían  cruces blancas en honor a las víctimas de cáncer de Vieques. Llegaron a los terrenos por lancha en total oscuridad.</p>
 
+<div id="audioLeft" class="audioLeft" style="margin: 5px 15px 10px 5px !important;">
+<div class="audioLeftIcon"></div>
+<div class="audioLeftTxt"><strong>Escucha su relato</strong></div>
+<audio preload="auto" src="audios/Clip_testigos_CAMILE_ROLDAN.mp3"></audio>
+</div>
+
 <p class="single-news-content">"Caminamos entre  la maleza. Yo iba detrás de Lolita Lebrón,  una mujer con fortaleza. Cuando iba amanecer, y mientras acomodaban las cruces, llegaron los oficiales. Nos identificamos, nos agarraron y nos pusieron las esposas de plástico hasta que nos llevaron a Fajardo. Llamamos a los abogados y nos sacaron", relató Roldán, quien estuvo un año  inmersa en la cobertura de Vieques.</p>
 
 <p class="single-news-content">Recordó que aquel 1 de mayo de 2003, cuando cesaron  los bombardeos, sintió mucho orgullo porque aquel movimiento de pueblo tan grande que se dio en Vieques logró resultados.</p>
@@ -4333,6 +4376,12 @@ Durante la lucha en Vieques: ama de casa,  miembro de la Alianza de Mujeres Vieq
 
 <p class="single-news-content">Torres Gotay, quien durante cuatro años cubrió en vivo el tema de  Vieques  desde la muerte del guardia David Sanes hasta que la Marina partió el 1 de mayo de 2003, narró que   le sorprendió  la gente que se arriesgó a entrar a la zona de tiro de la Marina a merced de sufrir una desgracia, que dejaron a un lado familias, estudios, trabajos para hacer desobediencia civil por una causa en común.</p>
 
+<div id="audioLeft" class="audioLeft" style="margin: 5px 15px 10px 5px !important;">
+<div class="audioLeftIcon"></div>
+<div class="audioLeftTxt"><strong>Escucha su relato</strong></div>
+<audio preload="auto" src="audios/Clip_testigos_TORRES_GOTAY.mp3"></audio>
+</div>
+
 <p class="single-news-content">"Me llamó la atención un Rubén Berríos (presidente del Partido Independentista Puertorriqueño) que se   mantuvo en su campamento a orillas de la playa atravesando una situación seria de salud.  Me sorprendió la cantidad de gente que arriesgó su vida en el campo de tiro. El  nivel de sacrificio personal que se dio en esta lucha no lo había visto antes ni lo he vuelto a ver desde entonces", sostuvo este editor.</p>
 
 <p class="single-news-content">Tampoco puede olvidar los arrestos masivos de desobedientes civiles aquel 4 de mayo de 2000, un evento que le llena de nostalgia. "Fue un momento dramático, ver esposada a gente con los que  se vivió  mucho tiempo. Ver el sentido de injusticia pues era gente que estaba luchando por la tierra de ellos".</p>
@@ -4361,6 +4410,12 @@ Durante la lucha en Vieques: ama de casa,  miembro de la Alianza de Mujeres Vieq
 <p class="single-news-content">Aquella noche del  19 de abril de 1999 una llamada inesperada  le cambió los planes   a  Benjamín Morales, entonces editor adjunto de la agencia de noticias EFE.</p>
 
 <p class="single-news-content">Mientras se disponía a cerrar la oficina, la llamada notificó a Morales que una bomba  había matado a un guardia en Vieques durante un ejercicio militar.  "Cogí el teléfono por impulso, era la gente de Vieques notificando que había muerto un guardia por una bomba. Me escandalicé, pensé que era un guardia estatal hasta que me aclararon que era David Sanes. Esta muerte desató todas las alertas", contó Morales, actual director asociado de El Nuevo Día.</p>
+
+<div id="audioLeft" class="audioLeft" style="margin: 5px 15px 10px 5px !important;">
+<div class="audioLeftIcon"></div>
+<div class="audioLeftTxt"><strong>Escucha su relato</strong></div>
+<audio preload="auto" src="audios/Clip_testigos_BENJAMIN_MORALES.mp3"></audio>
+</div>
 
 <p class="single-news-content">Se desató un  correcorre  ante esta tragedia que sacudió al pueblo viequense y a todo Puerto Rico.</p>
 
